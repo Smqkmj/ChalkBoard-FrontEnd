@@ -1,31 +1,21 @@
-# Overview
+# ChalkBoard
+#### A Blackboard improvement 
 
-ChalkBoard is a learning management system (LMS) that serves as an alternative to City University of New York's (CUNY) BlackBoard. To address the concerns of users when using BlackBoard, the group decided to plan and make a learning management application with ease of usage as the top priority.
+##  About ChalkBoard
+ChalkBoard is a spinoff of Blackboard while imporving on crucial features like navigability and is well confingurable with all screen sizes and ratios.
+In the current itteration of ChalkBoard there are three main sections: Homepage, Assignments, and Grades. 
+This project was made by using React JS, Bootswatch on top of Bootstrap. In the future I would like to add more pages to provide more useful information that helps the users like a Profile page, Attendance page, and a Change Password page.
 
-# Description
+### Features
+* The Homepage is an outline of everything that the user would need to access; the students accessing their assignments given by their teacher and their Grades that they have recieved for them and Teachers to give assignments and return grades to students.
+* The Assignments page is for stuidents to see what they have to do and when it is due, and for teachers to keep track of what they have assigned and what they have saved for later to assign
+* The Grades page is for students to see how they are doing in their courses and for teachers to give feedback to students regarding their standing in the course
 
-ChalkBoard has a minimilastic yet modern-looking user interface (UI) to help users navigate more easily in the application. The information displayed are made succinct to avoid clutter and improve user experience (UX) when using the application. The application is also mobile-friendly to be more accessible to various devices among users.
+### Technologies used
+* React JS is used to build all of the functional components like inputting and displaying information, navigating through the different pages, and being flexible through different size screens with unique screen ratios.
+* Bootstrap is a framework for CSS and Bootswatch makes it seamless by making all the pages unified with one theme.
 
-Chalkboard lets a user create their own account using the organization-provided email (in this case, xxxxx@chalkboard.edu). Privileges granted depend on the account type, whether a Staff or a Student. Staff accounts have access to all Student accounts' information, assign new homeworks, as well as grade them. On the other hand, Student accounts only have access to their respective homeworks and grades.
-
-Three main sections of Chalkboard are:
-
-*   Homepage
-*   Assignments
-*   Grades
-
-The Homepage contains important alerts, the list of courses that the user is enrolled at, and the recently graded homeworks. In the course list, a user can add a course with the term, subject, course code, and course name.
-
-In the Assignments page, a Student account can see all past and upcoming homeworks. In addition to those features, a Staff account can also set future homeworks, and comment on submissions.
-
-In the Grades page, a Staff can view multiple student grades, set grades for submitted homeworks, and set upcoming homeworks as well. Information such as the assignment name, due date, date updated, and grade will be displayed for the user. However, a Student user can only choose and click on an existing course to view the all the homeworks for that particular course.
-
-# Future Improvements
-
-In the future, the group would like to implement several more features such as:
-
-1. Profile Page - to view and change the user's account information.
-
-2. Attendance Page - to keep track of a user's class attendance in each course.
-
-3. Password Change - to add a layer of security for users as well as a reset password functionality in case a user forgets their password.
+### For the Future
+* The Profile page is to see what classes the student is enrolled in and their overall grade. And for the teacher it is to see what courses they're teaching and general information.
+* The Attendance page is to see how the student's attendance is for each class and if they need to improve it or not. For the teacher it is to see all of their students' attendances for each class
+* The Change Password page is to be able to renew one's password for security reasons or if they forgot what their currenty password is 
